@@ -1,0 +1,19 @@
+{
+    "model": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    "speech_model": "openai-whisper-base",
+    "tts_engine": "gTTS",
+    "visualization": "matplotlib",
+    "router_keywords": {
+        "speech": [
+            "audio",
+            "voice",
+            "speak"
+        ],
+        "viz": [
+            "plot",
+            "chart",
+            "graph",
+            "visualize"
+        ]
+    }
+}

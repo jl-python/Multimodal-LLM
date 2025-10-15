@@ -1,0 +1,28 @@
+# --- Core scientific stack (NumPy 1.x for compatibility) ---
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.13.1
+scikit-learn==1.6.1
+matplotlib==3.9.4
+
+# --- Machine Learning / LLMs ---
+torch==2.8.0
+transformers==4.57.0
+sentence-transformers==5.1.1
+
+# --- Audio processing (no FFmpeg required) ---
+soundfile==0.12.1
+librosa==0.10.2.post1
+
+# --- Speech & Text ---
+openai-whisper==20231117
+gTTS==2.5.4
+
+# --- Web app framework ---
+streamlit==1.49.0
+
+# --- Utils & essentials ---
+protobuf<5.0
+requests
+tqdm
+pyyaml
